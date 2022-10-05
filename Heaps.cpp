@@ -5,7 +5,8 @@ void Insert(int A[], int n)  // n is index of element we are going to insert
 {
   int temp, i=n;
   temp=A[i];
-  
+  // here we are heapifying 
+	
   while(i>1 && temp>A[i/2])
   {
     A[i]=A[i/2];
