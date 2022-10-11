@@ -1,12 +1,12 @@
 #include<iostream>
-//#include vector;
+#include vector;
 using namespace std;
 
 
 void countsort(int A[], int size)
 {
 	int max=A[0];
-//	int count=0;
+	int count=0;
 	for(int i=0;i<size;i++)
 	{
 		if(A[i]>max)
