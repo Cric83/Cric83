@@ -15,12 +15,12 @@ void Insert(int A[], int n)  // n is index of element we are going to insert
   A[i]=temp;
 
 }
-
-void Display(int A[])
+// this function is to display after heapify
+void Display(int B[])
 {
 	for(int i=1;i<=8;i++)
 	{
-		cout<<A[i]<<" ";
+		cout<<B[i]<<" ";
 	}
 }
 
