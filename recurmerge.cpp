@@ -33,7 +33,7 @@ void merge(int A[], int low, int mid, int high)
 	}
 }
 
-
+// calling recursive merge sort
 
 void recursive_merge(int A[], int l,int h)
 {
