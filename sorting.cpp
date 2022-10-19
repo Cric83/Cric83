@@ -2,7 +2,7 @@
 using namespace std;
 
 
-void bubble(int A[], int size)
+void bubble(int A[], int size)     // time complexity is O(n^2)
 {
 	int flag;
 	
