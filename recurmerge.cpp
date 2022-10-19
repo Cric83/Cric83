@@ -1,11 +1,11 @@
 #include<iostream>
 using namespace std;
 
-void merge(int A[], int low, int mid, int high)
+void merge(int A[], int low, int mid, int high)   // this has time complexity O(nlogn)  in all cases
 {
 	int i=low,j=mid+1;
 	int B[100];
-	int k=low;
+	int  k=low;
 	while(i<=mid && j<=high)
 	{
 		if(A[i]>A[j])
