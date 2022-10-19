@@ -3,6 +3,7 @@ using namespace std;
 
 void selection(int A[], int size)
 {
+	// this is unused code for selection sort
 	// for(int i=0;i<size;i++)  
 	// {
 	// 	int j=i;
