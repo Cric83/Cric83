@@ -25,7 +25,7 @@ for(int i=0;i<size;i++)
 }
 
 
-void insertion(int A[], int size)
+void insertion(int A[], int size)  // this has time complexity O(n^2) in worst case 
 {
 	int i=0;
 	int j=0;
