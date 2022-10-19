@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-void merge(int A[], int low, int mid, int high)
+void merge(int A[], int low, int mid, int high)  // this has time complexity of O(nlogn)
 {
 	int i=low;
 	int k=low;
@@ -61,7 +61,7 @@ void mergesort(int A[],int size)
 }
 int main()
 {
-	int A[]={11,13,7,12,16,9,24,5,10,3,123};
+	int A[]={11,12,7,12,16,9,24,5,10,3,123};
 //	int l=0,h=8;
 //	int mid=(l+h)/2;
 	mergesort(A,11);
