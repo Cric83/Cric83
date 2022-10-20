@@ -3,9 +3,6 @@ using namespace std;
 
 void bubble(int A[], int size)
 {
-
-
-
 for(int i=0;i<size;i++)
 {
 	
@@ -24,7 +21,7 @@ for(int i=0;i<size;i++)
 }
 }
 
-
+// this is inserton sort
 void insertion(int A[], int size)
 {
 	int i=0;
