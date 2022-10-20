@@ -3,7 +3,7 @@
 using namespace std;
 
 
-void quick(int A[], int size)
+void quick(int A[], int size)   // this has time complexity of O(nlogn) but in worst case time complexity is O(n^2)
 {
 	int i=0;  // i moves if get greater number than pivot else stop 
 	int j=A[size];  // j moves if get greater numbers than pivot else stops
@@ -89,7 +89,7 @@ void Display(int A[], int size)
 
 int main()
 {
-	int A[]={11,13,7,12,16,9,24,5,10,3,INT_MAX};
+	int A[]={12,13,7,12,16,9,24,5,10,3,INT_MAX};
 	quicksort(A,0,10);
 	Display(A,10);
 }
