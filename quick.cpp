@@ -33,7 +33,7 @@ void quick(int A[], int size)   // this has time complexity of O(nlogn) but in w
 	}
 	
 }
-
+// partition  function starts here 
 int partition(int A[], int low,int high)
 {
 	int pivot=A[low];
